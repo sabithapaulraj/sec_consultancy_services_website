@@ -3,146 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Layout</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>SEC Consultancy Services</title>
 </head>
 <body>
-    <div class="main-container">
-        <div class="sidebar">
-            <img src="images/logo.png">
-            <nav>
-                <p>HOME</p>
-                <p>ABOUT US</p>
-                <p>SERVICES</p>
-                <p>PORTFOLIO</p>
-                <p>CONTACT</p>
-            </nav>
-        </div>
-        <div class="content-area">
-            <div class="header-section">
-                <img src="images/background">
+    <!-- Hero Section -->
+    <section id="Home" class="hero">
+        <div class="navfixed">
+            <div class="logo">
+                <img src="images/logo.png" alt="SEC Consultancy Services">
+                <h2>SEC Consultancy Services</h2>
             </div>
-            <div class="main-content">
-                <h2><span class="primary-color">WELCOME TO SEC CONSULTANCY SERVICES</span></h2>
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.  Nihil, voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-                <div class="divider"></div>
-                <div class="about-section">
-                    ABOUT US
-                </div>
-                <div class="team-section">
-                    <div class="team-member">
-                        <img src="images/people1.jpg">
-                        <h3 class="secondary-color">Christina Welldone</h3>
-                        <p>Managing Director</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="images/people2.jpeg">
-                        <h3 class="secondary-color">Terri Belle</h3>
-                        <p>Creative Executive</p>
-                    </div>
-                    <div class="team-member">
-                        <img src="images/people3.jpg">
-                        <h3 class="secondary-color">Tawana Cherry</h3>
-                        <p>Company President</p>
-                    </div>
-                </div>
-                <h3 class="secondary-color">OUR MANAGEMENT TEAM</h3>
-                <div class="services-section">
-                    <div class="service">
-                        <img class="icon" src="./images/lightning.png">
-                        <p>The Best Support Ever</p>
-                    </div>
-                    <div class="service">
-                        <img class="icon" src="./images/lap.png">
-                        <p>Fully Responsive Design</p>
-                    </div>
-                    <div class="service">
-                        <img class="icon" src="./images/edit.png">
-                        <p>Unlimited Layout Options</p>
-                    </div>
-                </div>
-                <h3 class="tertiary-color">OUR SKILLS</h3>
-                <div class="skills-section">
-                    <p>
-                        Integer hendrerit erat sed tellus pretium, eu sodales eros dignissim. Duis augue eros, mollis ac velit at, rutrum tincidunt ipsum. Morbi semper dui id fringilla semper. Etiam vulputate sagittis vestibulum. Vivamus ac ante cursus, feugiat ipsum et, aliquet justo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. lusto, minima soluta numquam perferendis illum alias omnis commodi error veritatis a esse nostrum asperiores recusandae.
-                    </p>
-                    <img src="./images/progressbar.png">
-                </div>
-                <div class="divider"></div>
-                <div class="portfolio-section">
-                    PORTFOLIO
-                </div>
-                <div class="portfolio-grid">
-                    <div class="portfolio-item">
-                        <img src="images/one.jpeg">
-                        <h3 class="quaternary-color">FANTASY</h3>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="images/two.jpeg">
-                        <h3 class="quaternary-color">BOTANY</h3>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="images/three.jpeg">
-                        <h3 class="quaternary-color">UNIVERSE</h3>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="images/four.jpeg">
-                        <h3 class="quaternary-color">CHANNEL</h3>
-                    </div>
-                    <div class="portfolio-item">
-                        <img src="images/five.jpeg">
-                        <h3 class="quaternary-color">DRAGONFLY</h3>
-                    </div>
-                    <div class="portfolio-item"></div>
-                        <img src="images/six.jpeg">
-                        <h3 class="quaternary-color">TITANIUM</h3>
-                    </div>
-                </div>
-                <button class="load-more-button">
-                    LOAD MORE
-                </button>
-                <div class="divider"></div>
-                <div class="contact-section">
-                    CONTACT US
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.148047063511!2d80.0137695106561!3d13.026242687241194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52605c8001b0b3%3A0x17397b086e047e7c!2sSaveetha%20Engineering%20College!5e0!3m2!1sen!2sin!4v1725327949985!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <div class="contact-form">
-                    <form>
-                        <div class="form-columns">
-                            <label for="name">Name:*</label>
-                            <label for="email">Email:*</label>
-                            <label for="subject">Subject:</label>
-                        </div>
-                        <div class="form-columns">
-                            <input class="name" type="text" required>
-                            <input class="email" type="email" required>
-                            <input class="subject" type="text">
-                        </div>
-                    </form>
-                </div>
+            <div class="nav-links">
+                <div id="HOME1"><a href="#Home">HOME</a></div>
+                <div id="ABOUT1"><a href="#About">ABOUT</a></div>
+                <div id="SERVICES1"><a href="#Services">SERVICES</a></div>
+                <div id="PORTFOLIO1"><a href="#Portfolio">PORTFOLIO</a></div>
+                <div id="CONTACT1"><a href="#Contact">CONTACT</a></div>
             </div>
+
+        </div>
+        <div class="first">
+            <img src="images/background" alt="SEC Consultancy Services">
+            <h1>Expert Cybersecurity Solutions</h1>
+            <p><span class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae corporis vel impedit eum, sed </span></p>
+            <button>READ MORE</button>
+        </div>
+    </section>
+    <!-- About Section -->
+    <div class="presection" id="About">
+        <div id="ABOUT" class="line"></div>
+        <div id="ABOUT" class="section-name">
+            <h3>ABOUT</h3>
         </div>
     </div>
-    <footer>
-        <div class="social-media-section">
-            <div class="social-media-icon">
-                <img src="./images/facebook.png">
+    <section class="third">
+        <div class="cards">
+            <div class="card">
+                <img src="images/people8.webp" alt="">
+                <h3 style="color: #e9b144;">John Doe</h3>
+                <h5>Cybersecurity Expert</h5>
             </div>
-            <div class="social-media-icon">
-                <img src="./images/twitter.png">
+            <div class="card">
+                <img src="images/people5.jpg" alt="">
+                <h3 style="color: #e9b144;">Jane Smith</h3>
+                <h5>Compliance Specialist</h5>
             </div>
-            <div class="social-media-icon">
-                <img src="./images/dribble.png">
-            </div>
-            <div class="social-media-icon">
-                <img src="./images/linkedin.png">
-            </div>
-            <div class="social-media-icon">
-                <img src="./images/wifi.png">
+            <div class="card">
+                <img src="images/people4.jpg" alt="">
+                <h3 style="color: #e9b144;">Bob Johnson</h3>
+                <h5>Risk Management Expert</h5>
             </div>
         </div>
-        <div class="copyright-section"> Copyright 2015 - Flomic </div>
-    </footer>
-</body>
-</html>    
+        <div class="left">
+            <h2 style="color: #e9b144;">OUR MANAGEMENT TEAM</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur rerum quasi consectetur porro esse
+                placeat asperiores quo recusandae. Asperiores et voluptatum optio earum esse in ex totam eaque ullam
+                magnam!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum atque dolorem facere tenetur recusandae
+                neque repudiandae quos odit voluptatibus. Modi consectetur sit sapiente facilis debitis autem esse
+                quasi.
+            </p>
+        </div>
+        <div class="right">
+            <img src="images/logo.png" alt="SEC Consultancy Services">
+        </div>
+    </section>
+    <!-- Services Section -->
+    <div class="presection" id="Services">
+        <div id="SERVICES" class="line"></div>
+        <div id="SERVICES" class="section-name">
+            <h3>SERVICES</h3>
+        </div>
+    </div>
+    <section class="fourth">
+        <div class="fourth-first">
+            <div>
+                <p>Cybersecurity Audits</p>
+            </div>
+            <div>
+                <p>Compliance and Risk Management</p>
+            </div>
+            <div>
+                <p>Penetration Testing</p>
+            </div>
+        </div>
+        <div class="fourth-second">
+            <div class="left">
+                <h2 style="color: #984cea;">OUR EXPERTISE</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur rerum quasi consectetur porro
+                    esse
+                    placeat asperiores quo recusand, Asperiores et voluptatum optio earum esse in ex totam eaque ullam
+                    magnam!
+                    Asperiores et voluptatum optio earum esse in ex totam eaque ullam magnam!
+                </p>
+            </div>
+            <div class="right"></div>
+                <div class="progressbar"><progress value="80" max="100"></progress>
+                    <h6>Graphics: 80%</h6>
+                </div>
+                <div class="progressbar"><progress value="85" max="100"></progress>
+                    <h6>HTML/CSS: 85%</h6>
+                </div>
+                <div class="progressbar"><progress value="90" max="100"></progress>
+                    <h6>Wordpress: 90%</h6>
+                </div>
+                <div class="progressbar"><progress value="70" max="100"></progress>
+                    <h6>Marketing: 70%</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+            <!-- Portfolio Section -->
+            <div class="presection" id="Portfolio">
+                <div id="PORTFOLIO" class="line"></div>
+                <div id="PORTFOLIO" class="section-name">
+                    <h3>PORTFOLIO</h3>
+                </div>
+            </div>
+            <section class="fifth">
+                <div class="fifth-first">
+                    <div class="projects">
+                        <img src="images/cs1.jpg" alt="">
+                        <h3>Cybersecurity Audit for XYZ Corporation</h3>
+                    </div>
+                    <div class="projects">
+                        <img src="images/cs2.jpg" alt="">
+                        <h3>Compliance and Risk Management for ABC Inc.</h3>
+                    </div>
+                    <div class="projects">
+                        <img src="images/cs3.jpeg" alt="">
+                        <h3>Penetration Testing for DEF Ltd.</h3>
+                    </div>
+                    <div class="projects">
+                        <img src="images/cs2.jpg" alt="">
+                        <h3>Cybersecurity Consulting for GHI Corp.</h3>
+                    </div>
+                    <div class="projects">
+                        <img src="images/cs3.jpeg" alt="">
+                        <h3>Incident Response for JKL Inc.</h3>
+                    </div>
+                    <div class="projects">
+                        <img src="images/cs1.jpg" alt="">
+                        <h3>Security Awareness Training for MNO Corp.</h3>
+                    </div>
+                </div>
+                <div class="fifth-second">
+                    <button>LOAD MORE</button>
+                </div>
+            </section>
+            <!-- Contact Section -->
+            <div class="presection" id="Contact">
+                <div id="CONTACT" class="line"></div>
+                <div id="CONTACT" class="section-name">
+                    <h3>CONTACT</h3>
+                </div>
+            </div>
+            <section class="sixth">
+                <div class="map">
+                    <iframe width="100%" height="450" scrolling="no" loading="lazy"
+                        src="https://www.openstreetmap.org/export/embed.html?bbox=80.015,13.024,80.017,13.027&layer=mapnik&marker=13.02592,80.01639"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="form">
+                    <form>
+                        <div class="Name">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div class="Email">
+                            <label for="email">Email:</label>
+                            <input type="text" id="email" placeholder="Email">
+                        </div>
+                        <div class="Subject">
+                            <label for="subject">Subject:</label>
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="Message">
+                            <label for="message">Message:</label>
+                            <textarea id="message" placeholder="Type your message..."></textarea>
+                        </div>
+                    </form>
+                    <div class="buttoncont">
+                        <button>SEND MESSAGE</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Footer Section -->
+            <footer>
+                <div class="social">
+                    <div class="social-icon">
+                        <img src="images/facebook.png" alt="SEC Facebook">
+                    </div>
+                    <div class="social-icon">
+                        <img src="images/facebook.png" alt="SEC Facebook">
+                    </div>
+                    <div class="social-icon">
+                        <<img src="images/facebook.png" alt="SEC Facebook">
+                    </div>
+                    <div class="social-icon">
+                        <img src="images/facebook.png" alt="SEC Facebook">
+                    </div>
+                    <div class="social-icon">
+                        <img src="images/facebook.png" alt="SEC Facebook">
+                    </div>
+                </div>
+                <p>Copyright &copy; 2024 <span>SEC Consultancy Services</span></p>
+            </footer>
+            <script defer>
+                // this code is to reload the page so that map api works correctly :)
+                if (!sessionStorage.getItem('reloaded')) {
+                    sessionStorage.setItem('reloaded', 'true');
+                    location.reload();
+                }
+            </script>
+        </body>
+    </html>
